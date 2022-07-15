@@ -8,7 +8,7 @@ main{
     height: 100vh;
     flex-direction: column;
     background-color: #2b2a33;
-    color: antiquewhite;
+    color: azure;
 }
 
 main > div:first-child{
@@ -22,7 +22,7 @@ main > div {
 }
 
 #table_link{
-    border-bottom: 0.1rem solid antiquewhite;
+    border-bottom: 0.1rem solid azure;
 }
 
 #searchBtn{
@@ -43,6 +43,6 @@ main > div {
 .ok > div {
     padding: 0.4rem;
     width: 30%;
-    border: 0.1rem solid antiquewhite;
+    border: 0.1rem solid azure;
     text-align: center;
 }
