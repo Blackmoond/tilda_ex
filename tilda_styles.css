@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #2b2a33;
+    color: antiquewhite;
+}
+
+main > div:first-child{
+    margin-top: 10rem;
+}
+
+main > div {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2rem;
+}
+
+#table_link{
+    border-bottom: 0.1rem solid antiquewhite;
+}
+
+#searchBtn{
+    width: 3rem;
+    cursor: pointer;
+}
+
+#resp{
+    margin-top: 3rem;
+}
+
+.ok{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30rem;
+}
+
+.ok > div {
+    padding: 0.4rem;
+    width: 30%;
+    border: 0.1rem solid antiquewhite;
+    text-align: center;
+}
